@@ -15,6 +15,35 @@ $(document).ready(function() {
         mazdaCars = JSON.parse(mazdaCars);
         printCars();
     }
+$("#inicio").on("click", function() {
+    $("#panel").hide();
+    $('#inicioP').removeClass().addClass('col-7');
+});
+$("#list-resumen-list").on("click", function() {
+    $("#panel").show();
+    
+});
+
+$("#list-hab-list").on("click", function() {
+    $("#panel").show();
+    
+});
+$("#list-portf-list").on("click", function() {
+    $("#panel").show();
+    
+});
+$("#list-blog-list").on("click", function() {
+    $("#panel").show();
+    
+});
+$("#list-contact-list").on("click", function() {
+    $("#panel").show();
+    
+});
+
+
+
+
 
 });
 
